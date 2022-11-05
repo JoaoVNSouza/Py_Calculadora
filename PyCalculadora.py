@@ -50,7 +50,6 @@ while True:
     event, values = window.read()
 
     if event == 'Cancelar':
-        resultado = 2222
         break
     elif event == '+':
         resultado = calculadora(int(values[0]), int(values[1]), '+')
